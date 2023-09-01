@@ -126,6 +126,11 @@
   --bs-form-invalid-border-color: #f73030;
 }
 
+footer{
+  width: 100%;
+  background-color: #010b40;
+}
+
 [data-bs-theme=dark] {
   color-scheme: dark;
   --bs-body-color: #dee2e6;

@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <div class="container-fluid pb-5 mx-0 px-0 bg-light">
+    <div class="container-fluid mx-0 px-0 bg-body-secondary">
         <header class="header">
             <div class="container-fluid px-0 mx-0 bg-primary">
               <!-- Navbar -->
@@ -29,16 +29,16 @@
                 <div class="navbar-collapse justify-content-center collapse" id="navbarNav">
                   <ul class="navbar-nav text-center">
                     <li class="nav-item active">
-                      <a class="nav-link active" href="/">Home</a>
+                      <a class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./src/sobre.html">Sobre</a>
+                      <a class="nav-link" href="src/sobre.html">Sobre</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./src/cursos.html">Cursos</a>
+                      <a class="nav-link" href="src/cursos.html">Cursos</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contato</a>
+                      <a class="nav-link" href="src/contato.html">Contato</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -64,7 +64,7 @@
               <!-- End hero -->
             </div>
           </header>
-          <main class="main container bg-secondary py-5 border-5">
+          <main class="main container bg-body-secondary py-5 border-5">
               <!-- Libras Acacademy - Explication -->
                 <div class="container ">
                   <div class="row  ">
@@ -101,45 +101,8 @@
                 </div>
               <!-- End Libras Acacademy - Explication -->
 
-              <footer>
-                <!-- footer -->
-                <div class="container bg-light border-rad">
-                  <footer class="py-5">
-                    <div class="row justify-content-center">
-                      <div class="col-sm-12 col-md-5 mb-3 text-center">
-                        <h3 class="text-center">Libras Academy</h3>
-                        <ul class="nav flex-column align-content-center mt-4">
-                          <li class="nav-item mb-1"><a href="#" class="nav-link p-0 fs-5 text-body-secondary">Home</a></li>
-                          <li class="nav-item mb-1"><a href="#" class="nav-link p-0 fs-5 text-body-secondary">Sobre</a></li>
-                          <li class="nav-item mb-1"><a href="#" class="nav-link p-0 fs-5 text-body-secondary">Cursos</a></li>
-                          <li class="nav-item mb-1"><a href="#" class="nav-link p-0 fs-5 text-body-secondary">Contato</a></li>
-                        
-                        </ul>
-                      </div>
-                
-                
-                      <div class="col-sm-12 col-md-5 mb-3 text-center">
-                        <form>
-                          <h3 class="text-center">Inscreva-se</h3>
-                          <p class="mt-5">E receba notícias e novidades do Libras Academy</p>
-                          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Seu e-mail</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn btn-success fw-bolder " type="button">Enviar</button>
-                          </div>
-                        </form>
-                      </div>
-                    </div>
-                    <div class="border-top"></div>
-                    <div class="d-flex justify-content-center mt-4 ">
-                      <p class="text-center">© 2023 Libras Academy. Todos os direitos reservados.</p>
-                    </div>
-                  </footer>
-                </div>
-                <!-- footer end -->
-              </footer>
               <!-- VLibras -->
-              <div vw class="enabled position-fixed ">
+              <div vw class="enabled position-fixed">
                 <div vw-access-button class="active"></div>
                 <div vw-plugin-wrapper>
                   <div class="vw-plugin-top-wrapper"></div> 
@@ -150,11 +113,44 @@
                 new window.VLibras.Widget('https://vlibras.gov.br/app');
               </script>
               <!-- VLibras end -->
-          </main>
-      
-
-    </div>
-  </body>
+            </main>
+              <!-- footer -->
+                <footer class="text-white py-3 px-5 bg-info">
+                  <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-5 mb-3 text-center">
+                      <h3 class="text-center">Libras Academy</h3>
+                      <ul class="nav flex-column align-content-center mt-4 text-white">
+                        <li class="nav-item mb-1"><a href="index.html" class="nav-link p-0 fs-5 text-white">Home</a></li>
+                        <li class="nav-item mb-1"><a href="src/sobre.html" class="nav-link p-0 fs-5 text-white">Sobre</a></li>
+                        <li class="nav-item mb-1"><a href="src/cursos.html" class="nav-link p-0 fs-5 text-white">Cursos</a></li>
+                        <li class="nav-item mb-1"><a href="src/contato.html" class="nav-link p-0 fs-5 text-white">Contato</a></li>
+                      
+                      </ul>
+                    </div>
+              
+              
+                    <div class="col-sm-12 col-md-5 mb-3 text-center">
+                      <form>
+                        <h3 class="text-center">Inscreva-se</h3>
+                        <p class="mt-5">E receba notícias e novidades do Libras Academy</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                          <label for="newsletter1" class="visually-hidden">Seu e-mail</label>
+                          <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                          <button class="btn btn-dark fw-bolder " type="button">Enviar</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="border-top"></div>
+                  <div class="d-flex justify-content-center mt-4 ">
+                    <p class="text-center">© 2023 Libras Academy. Todos os direitos reservados.</p>
+                  </div>
+                </footer>
+              <!-- footer end -->
+            
+            
+          </div>
+        </body>
 
 
 </html>
